@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-facebook.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook</title>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            <img class="logo" src="dF5SId3UHWd.svg" alt="Facebook">
+        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+        </div>
+        <div>
+            <form>
+                <input type="text" placeholder="Email ou telefone">
+                <input type="password" placeholder="Senha">
+                <button class="entrar">Entrar</button>
+                <p><a href="https://github.com/nicolasgaldino" target="_blank" rel="external">Esqueceu a senha?</a></p>
+                <button class="criar">Criar nova conta</button>
+            </form>
+        <p><a href="#"><strong>Criar uma Página</strong></a> para uma celebridade, banda ou empresa.</p>
+        </div>
+    </div>
+    <footer><a href="https://github.com/nicolasgaldino" target="_blank" rel="external">Galdino ᶜʳᶠ <span id="year"></span></a></footer>
+    <script>
+        const ano = document.getElementById('year');
+        const anoAtual = new Date();
+        ano.innerHTML = anoAtual.getFullYear();
+    </script>
+</body>
+</html>
